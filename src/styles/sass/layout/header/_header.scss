@@ -1,0 +1,31 @@
+@import '../../_variables/variables';
+
+.header{
+  background: #efefef;
+  padding: 10px 30px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100vw;
+  height: $header-component-height;
+  box-shadow: 0 5px 5px 0 #a7a7a7;
+  h5{
+    margin-bottom: 1px;
+  }
+  small{
+    font-weight: bold;
+    display: inline-block;
+  }
+  .title{
+    color: #707070;
+  }
+  .all{
+    color: #FF3E3E;
+  }
+  .recovered{
+    color: #00BF26;
+  }
+  .deaths{
+    color: #2E2E2E;
+  }
+}

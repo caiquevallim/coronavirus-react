@@ -1,0 +1,8 @@
+@import '../../_variables/variables';
+
+.landing{
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  padding-top: $header-component-height;
+}

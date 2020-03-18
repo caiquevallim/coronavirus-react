@@ -1,0 +1,15 @@
+//@import "./grid/grid";
+@import 'vendor';
+@import "./layout/layout";
+*{
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 2px;
+}
+body{
+  background: #cdcdcd;
+  //background: url("../img/bg-coronavirus.jpg") no-repeat;
+  //background-size: cover;
+}
+* {
+    //border: 1px solid red;
+}
